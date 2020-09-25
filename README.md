@@ -35,6 +35,14 @@ This repository provides supplementary information for the article *Estimating t
 
 ## Results
 
+**Result files used in the final analysis** in `valid_results` -folder:
+- results_combined_by_user.csv
+- origin_assesment_expert_1_expert_2.csv
+- f1-scores-micro_macro.csv
+- spearman_stats.csv
+
+*Results based on the demo data can be found in folder* demo_results
+
 Jupyter notebooks for plotting the result tables and figures:
 - [F1-scores](notebooks/F1-scores.ipynb)
 - [expert agreement](ia_agreement.ipynb)

@@ -9,6 +9,11 @@ This repository provides supplementary information for the article *Estimating p
     - Based on publicly available data collected from the Instagram API in spring 2016
     - Each point has information of the related administrative areas (Contintents, subregions & countries)
     - This repository contains **de-identified and mocked demo data** in [demo_data folder](./demo_data). Geotags, timestams and userids are fake in this layer, but it allows testing the origin detection techniques. 
+- **Global regions -layer**
+    - Based on GADM 2019 (Database of Global Administrative Areas). 
+    - Modified by the authors on the sub-regional level. 
+    - This layer is not included in this repository due to GADM license. 
+    - We welcome interested scholars to contact the authors of the related paper for more details.
     
 ![Figure 1](demo_fig/SoMeOrigins_Figure1.png)
 *Results in the manuscript are based on data from 1375 users (33 % sample included in the expert assessment)*

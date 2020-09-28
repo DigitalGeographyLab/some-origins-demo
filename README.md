@@ -1,6 +1,6 @@
 # Estimating the origins of people from social media: comparison of techniques
 
-This repository provides supplementary information for the article *Estimating the origins of people from social media data: a critical comparison of measuring techniques*.
+This repository provides supplementary information for the article *Estimating place of residence from social media data: a critical comparison of measuring techniques*.
 
 
 ## Source data
@@ -44,6 +44,9 @@ This repository provides supplementary information for the article *Estimating t
 *Results based on the demo data can be found in folder* demo_results
 
 Jupyter notebooks for plotting the result tables and figures:
+
+*Note, all input data for running these notebooks is not readily available in this demo repository.*
+
 - [F1-scores](notebooks/F1-scores.ipynb)
 - [expert agreement](ia_agreement.ipynb)
 - [Spearmann correlation](notebooks/spearman.ipynb)

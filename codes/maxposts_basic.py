@@ -6,7 +6,7 @@ Code associated to following manuscript:
 
 SOMEORIGINS - MAXPOSTS - BASIC
 
-Script for identifying the most probable home country for Instagram users that have visited Kruger national park, SA.
+Script for identifying the most probable home country for social media users that have visited Kruger national park, SA.
 The script calculates following things:
     - Exclude posts within target area (Kruger) from further analysis
     - For each user, calculate the country  with 1) most posts and 2) second most posts
@@ -91,8 +91,9 @@ method_name = "basic_maxposts"
 #--------------------------
 # SOCIAL MEDIA DATA
 #--------------------------
-# Social media mobility history for Kruger national park visitors, with regioninfo, each point is assigned to the nearest region if found not on land
-fp = r"./../demo_data/fake_input_data.shp"
+# Social media mobility history for Kruger national park visitors, with regioninfo,
+# each point is assigned to the nearest region if found not on land
+fp = r"./demo_data/fake_input_data.shp"
 
 #read demo_data with geopandas
 some = gpd.read_file(fp)

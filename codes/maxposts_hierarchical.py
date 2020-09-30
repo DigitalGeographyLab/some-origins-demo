@@ -99,7 +99,7 @@ method_name = "hierarchical_maxposts"
 # SOCIAL MEDIA DATA
 #--------------------------
 # Social media mobility history for Kruger national park visitors, with regioninfo, each point is assigned to the nearest region if found not on land
-fp = r"./demo_data/fake_input_data.shp"
+fp = r"./../demo_data/fake_input_data.shp"
 
 #read demo_data with geopandas
 some = gpd.read_file(fp)
@@ -185,7 +185,7 @@ homelocs = geo[['userid', 'post_cnt', 't_bef_KNP', 'time_dif', 'FIPS_1', 'FIPS_1
 homelocs[method_name] = homelocs["FIPS_1"]
 
 
-homelocs.to_csv(r"./demo_results/%s_%susers.csv" % (method_name, str(homelocs.userid.nunique())), sep=";")
+homelocs.to_csv(r"./../demo_results/%s_%susers.csv" % (method_name, str(homelocs.userid.nunique())), sep=";")
 
 #------------------------------
 # Aggregate results by region
@@ -200,7 +200,7 @@ country_matrix.rename(columns={"FIPS_1_visitorcount": method_name}, inplace=True
 subregion2_matrix = aggregateRegionInfo(geo, 'SubReg_2_1')
 continent_matrix = aggregateRegionInfo(geo, 'RegCode_1')
 
-country_matrix.to_csv(r"./demo_results/%s_%susers_by_country.csv" % (method_name, str(homelocs.userid.nunique())),
+country_matrix.to_csv(r"./../demo_results/%s_%susers_by_country.csv" % (method_name, str(homelocs.userid.nunique())),
                       index=False, sep=";")
 
 

@@ -85,7 +85,6 @@ def joinHomeLocWithCountryShape(region_matrix, region_column, region_shape):
     return region_join
 
 
-
 # set method name
 method_name = "basic_maxposts"
 
@@ -93,7 +92,7 @@ method_name = "basic_maxposts"
 # SOCIAL MEDIA DATA
 #--------------------------
 # Social media mobility history for Kruger national park visitors, with regioninfo, each point is assigned to the nearest region if found not on land
-fp = r"./demo_data/fake_input_data.shp"
+fp = r"./../demo_data/fake_input_data.shp"
 
 #read demo_data with geopandas
 some = gpd.read_file(fp)
@@ -145,7 +144,7 @@ homelocs = geo
 homelocs[method_name] = homelocs["FIPS_1"]
 
 
-homelocs.to_csv(r"./demo_results/%s_%susers.csv" % (method_name, str(homelocs.userid.nunique())),
+homelocs.to_csv(r"./../demo_results/%s_%susers.csv" % (method_name, str(homelocs.userid.nunique())),
                 sep=";")
 
 #------------------------------
@@ -157,7 +156,7 @@ country_matrix = aggregateRegionInfo(geo, 'FIPS_1')
 country_matrix.rename(columns={"FIPS_1_visitorcount": method_name},
                       inplace=True)
 
-country_matrix.to_csv(r"./demo_results/%s_%susers_by_country.csv" % (method_name, str(homelocs.userid.nunique())),
+country_matrix.to_csv(r"./../demo_results/%s_%susers_by_country.csv" % (method_name, str(homelocs.userid.nunique())),
                       index = False,
                       sep=";")
 

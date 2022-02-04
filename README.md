@@ -1,6 +1,6 @@
-# Estimating the origins of people from social media: comparison of techniques
+# Detecting country of residence from social media data: a comparison of methods
 
-This repository provides supplementary information for the article *Estimating place of residence from social media data: a critical comparison of measuring techniques*.
+This repository provides supplementary information for the article *Detecting country of residence from social media data: a comparison of methods*.
 
 
 ## Source data

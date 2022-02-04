@@ -1,4 +1,4 @@
-# Detecting country of residence from social media data: a comparison of methods
+# Detecting country of residence from social media data - Python scripts and mock data
 
 This repository provides supplementary information for the article *Detecting country of residence from social media data: a comparison of methods*.
 

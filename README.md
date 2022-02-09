@@ -2,9 +2,17 @@
 
 This repository provides supplementary information for the article *Detecting country of residence from social media data: a comparison of methods*.
 
-[insert citation here]
-
 The methodology has been further developed in the BORDERSACE project, updated version of the scripts is available at: https://github.com/DigitalGeographyLab/TwitterOriginsDetection-Demo
+
+## Citation
+
+To cite any material in this repository and the related journal article, please use the following citation:
+
+Heikinheimo, V., Järv, O., Tenkanen, H., Hiippala, T., Toivonen, T. (2022). Detecting country of residence from social media data: a comparison of methods.
+International Journal of Geographical Information Science (provisionally accepted manuscript at the time of writing). 
+
+Heikinheimo, V. & Tenkanen, H. (2022). Python scripts for detecting country of residence from social media data.
+Figshare. https://doi.org/10.6084/m9.figshare.12504773
 
 ## Source data
 

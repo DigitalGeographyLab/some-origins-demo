@@ -1,8 +1,8 @@
-# Detecting country of residence from social media data - Python scripts and mock data
+# Detecting country of residence from social media data – Python scripts and mock data
 
 This repository provides supplementary information for the article *Detecting country of residence from social media data: a comparison of methods*.
 
-The methodology has been further developed in the BORDERSACE project, updated version of the scripts is available at: https://github.com/DigitalGeographyLab/TwitterOriginsDetection-Demo
+The methodology has been further developed in the BORDERSPACE project, updated version of the scripts is available at: https://github.com/DigitalGeographyLab/TwitterOriginsDetection-Demo
 
 ## Citation
 

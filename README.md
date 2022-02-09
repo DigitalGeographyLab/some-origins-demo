@@ -11,8 +11,6 @@ To cite any material in this repository and the related journal article, please 
 Heikinheimo, V., Järv, O., Tenkanen, H., Hiippala, T., Toivonen, T. (2022). Detecting country of residence from social media data: a comparison of methods.
 International Journal of Geographical Information Science (provisionally accepted manuscript at the time of writing). 
 
-Heikinheimo, V., Järv, O., Tenkanen, H., Hiippala, T., Toivonen, T. (2022). Python scripts for detecting country of residence from social media data.
-Figshare. https://doi.org/10.6084/m9.figshare.12504773
 
 ## Source data
 

@@ -19,7 +19,7 @@ Figshare. https://doi.org/10.6084/m9.figshare.12504773
 - **Global posting history covering years 2010-2016 of social media users who visited Kruger National Park in 2014**
     - Based on publicly available data collected from the Instagram API in spring 2016
     - Each point has information of the related administrative areas (Contintents, subregions & countries)
-    - This repository contains **de-identified and mocked demo data** in [demo_data folder](./demo_data). Geotags, timestams and userids are fake in this layer, but it allows testing the origin detection techniques. 
+    - This repository contains **de-identified mock demo data** in [demo_data folder](./demo_data). Geotags, timestamps and user identifiers are fake in this layer, but it allows testing the origin detection techniques. 
 - **Global regions -layer**
     - Based on GADM 2019 (Database of Global Administrative Areas). 
     - Modified by the authors on the sub-regional level. 

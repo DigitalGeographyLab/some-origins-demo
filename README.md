@@ -2,7 +2,7 @@
 
 This repository provides supplementary information for the article *Detecting country of residence from social media data: a comparison of methods*.
 
-The methodology has been further developed in the BORDERSPACE project, updated version of the scripts is available at: https://github.com/DigitalGeographyLab/TwitterOriginsDetection-Demo
+The methodology has been further developed in the BORDERSACE project at the University of Helsinki. Updated codes will be made available via https://github.com/DigitalGeographyLab/
 
 ## Citation
 

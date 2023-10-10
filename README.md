@@ -2,15 +2,14 @@
 
 This repository provides supplementary information for the article *Detecting country of residence from social media data: a comparison of methods*.
 
-The methodology has been further developed in the BORDERSACE project at the University of Helsinki. Updated codes will be made available via https://github.com/DigitalGeographyLab/
+The methodology has been further developed in the BORDERSPACE project at the University of Helsinki. Updated code will be made available via https://github.com/DigitalGeographyLab/
 
 ## Citation
 
 To cite any material in this repository and the related journal article, please use the following citation:
 
 Heikinheimo, V., Järv, O., Tenkanen, H., Hiippala, T., Toivonen, T. (2022). Detecting country of residence from social media data: a comparison of methods.
-International Journal of Geographical Information Science (provisionally accepted manuscript at the time of writing). 
-
+International Journal of Geographical Information Science *36*(10): 1931-1952. DOI: 10.1080/13658816.2022.2044484
 
 ## Source data
 
